@@ -94,7 +94,7 @@ public class Conjunto<T> {
 	public Conjunto<T> interseccion2(Conjunto<T> c) {
 		Conjunto<T> salida =new Conjunto<T>();
 		for (int i = 0; i < c.tamano(); i++) {
-			if (this.estaElemento(c.iesimo(i))) {
+			if (this.estaElemento(c.iesimo(i))) {	//Esta mal
 				salida.agregar(c.iesimo(i));
 			}
 		}
