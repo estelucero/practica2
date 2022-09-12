@@ -32,9 +32,10 @@ public class main {
 			dic.imprimir();
 			System.out.println(dic.eliminar("hola"));
 			dic.imprimir();
-			System.out.println(dic.eliminar(" "));
+			System.out.println(dic.eliminar("cahu"));
 			dic.imprimir();
 			System.out.println(dic.estaVacio());
+			
 		}catch(Exception e) {
 			throw e;
 		}

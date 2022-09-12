@@ -37,7 +37,7 @@ public class Diccionario<C,V> {
 	public boolean estaKey (C key) {
 		
 		for(int i =0;i<this.diccionario.tamano();i++) {
-			if(this.diccionario.iesimo(i).getKey()==key) {
+			if(this.diccionario.iesimo(i).getKey().equals(key)) {
 				return true;
 			}
 		}
